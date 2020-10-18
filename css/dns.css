@@ -1,0 +1,143 @@
+/*
+*  Copyright (c) 2020 Barchampas Gerasimos <makindosxx@gmail.com>.
+*  proxphish is a advanced phishing tool.
+*
+*  proxphish is free software: you can redistribute it and/or modify
+*  it under the terms of the GNU Affero General Public License as published by
+*  the Free Software Foundation, either version 3 of the License, or
+*  (at your option) any later version.
+*
+*  proxphish is distributed in the hope that it will be useful,
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*  GNU Affero General Public License for more details.
+*
+*  You should have received a copy of the GNU Affero General Public License
+*  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+*/
+
+
+
+#body
+{
+background-image:url('');
+background-repeat:no-repeat;
+background-size:100%;
+background-color: #F6F6F6;
+}
+
+
+
+#form1
+{
+background-color:;
+border-style:;
+border-width:;
+border-color:;
+height:;
+width:;
+}
+
+
+
+
+#select_dns
+{
+height:2.5em;
+width:20em;
+text-align:center;
+background: white;
+border-bottom: 0px;
+border-top: 0px;
+color:black;
+font-size:18px;
+}
+
+
+
+
+#email
+{
+height:3em;
+width:20em;
+text-align:center;
+}
+
+
+#ngrok
+{
+height:3em;
+width:20em;
+text-align:center;
+}
+
+
+#submit
+{
+height:3em;
+width:23.5em;
+color:black;
+font-size:16px;
+background-color:white;
+}
+
+
+
+
+
+
+#footer
+{
+
+}
+
+
+
+
+
+
+
+
+
+.shell-wrap 
+{
+height: 98%;
+width: 98%;
+margin: 1px auto 0 auto;
+box-shadow: 0 0 30px rgba(0,0,0,0.4);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+ 
+background: #272434; /* Old browsers */
+}
+ 
+.shell-top-bar {
+  text-align: center;
+  color: #525252;
+  padding: 30px;
+  margin: 0;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+  font-size: 1.5em;
+  border: 1px solid #CCCCCC;
+  border-bottom: none;
+ 
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+ 
+
+background: white; /* Old browsers */
+
+
+background-image: url('icons/icon.png'), url('icons/icon.png');
+background-repeat: no-repeat, no-repeat;
+background-position: top right, top left; 
+background-size: 11% 100%, 11% 100%; 
+
+}
+
