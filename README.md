@@ -74,10 +74,15 @@ i) Open the file settings.php and give username and password of your mail accoun
    Notice! The programm using gmail accounts for sending email </br>
    Notice! If using another mail service account set the parameters for smtp protocol,host and security in dns.php file at mail phishing paragraph </br> </br>
    
+  
 ii) Go to folder /var/www/proxphish/ngrok/ open a terminal and setup the ngrok account </br>
     After using the ngrok for ceate fake dns. e.x ./ngrok http 80 </br>
     Notice! For as long as the attack lasts do not close the terminal with the warm because the dns will be lost </br>
     Notice! In every attack close and run again the ngrok for creation new fake dns and for hide your identity </br>
+    
+    
+  <img src="css/screenshots/sc0.png"> </br></br></br>
+    
    
 iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome to proxphish program. Happy hacking! </br>
       For delete cloning e-service and attack from begin with anaother e-service clear the program </br>
@@ -85,6 +90,14 @@ iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome t
       Notice! If at some point during the attack you get the message "Phishing attack failed" then it means that you have exceeded the limit of daily emails and                 your smtp server cuts you.
       In this case, just use a new gmail account</br></br></br>
     
+    
+  <img src="css/screenshots/sc1.png"> </br></br></br>  
+  <img src="css/screenshots/sc2.png"> </br></br></br>
+  <img src="css/screenshots/sc3.png"> </br></br></br>
+  <img src="css/screenshots/sc4.png"> </br></br></br>
+  <img src="css/screenshots/sc5.png"> </br></br></br>
+  <img src="css/screenshots/sc6.png"> </br></br></br>
+  <img src="css/screenshots/sc7.png"> </br></br></br>
 
 
 <font color='black' size='5'> Acces to the Control Panel of proxphish </font>
@@ -92,5 +105,11 @@ iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome t
 i) Open tour bowser ang go to local Ipv4/UI e.x 192.168.2.2/UI or ngrok link/UI e.x https://ddwe23d334.ngrok.io/UI </br>
    Login Credentials: username: proxphish@dns password: proxphish@dns </br>
    For this panel see you the hacked account  </br>
-   In this panel you view the hacked accounts, and many other operations such as (data storage, deletion, and attack from begin). </br>
+   In this panel you view the hacked accounts, and many other operations such as (data storage, deletion, and attack from begin). </br></br>
+   
+ <img src="css/screenshots/sc8.png"> </br></br></br>
+ <img src="css/screenshots/sc9.png"> </br></br></br>
+ <img src="css/screenshots/sc10.png"> </br></br>
+
+
    
