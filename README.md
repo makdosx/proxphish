@@ -71,4 +71,8 @@ ii) Go to folder /var/www/proxphish/ngrok/ open a terminal and setup the ngrok a
     Notice! For as long as the attack lasts do not close the terminal with the warm because the dns will be lost </br>
     Notice! In every attack close and run again the ngrok for creation new fake dns and for hide your identity </br>
    
-ii) 
+iii)  After open the browser and give your local Ipv4. Welcome to proxphish program. Happy hacking! </br></br></br>
+
+
+
+
