@@ -1,9 +1,9 @@
 # proxphish
 
 
-<p align="center">
+<h2 align="center">
 proxphish is a advanced phishing tool </br> 
-</p>
+</h2>
 
 
 <p align="center">
