@@ -18,8 +18,6 @@ i) Auto method with smtp local server </br>
    c) Your ip from server. Recommended not try this. If try this method use one vpn and port forward on your router </br></br></br>
 
 
- <font size="7"> 1) SOFTWARE </font> </br>
-
 
  <font color='black' size='5'> <b> INSTALLATION </b> </font> <br/>
  
