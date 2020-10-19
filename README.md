@@ -17,9 +17,7 @@ i) Auto method with smtp local server </br>
    b) Any fake dns with other srvice e.x server </br>
    c) Your ip from server. Recommended not try this. If try this method use one vpn and port forward on your router </br></br></br>
 
-![fake_dns](css/screenshots/fake_dns.png) </br></br>
 
- 
  <font size="7"> 1) SOFTWARE </font> </br>
 
 
