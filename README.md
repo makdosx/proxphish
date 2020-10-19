@@ -25,7 +25,7 @@ i) Auto method with smtp local server </br>
  
    
    
- <font color='black' size='5'> <b> INSTALLATION </b> </font> <br/>
+ <font color='black' size='5'> <b> Specifications </b> </font> <br/>
  
   <table>
  
@@ -54,4 +54,18 @@ i) Auto method with smtp local server </br>
  <td> Linux Mint </td>
 </tr>
 
-</table>
+</table> </br</br></br>
+
+
+
+<font color='black' size='5'> Instructions of use </font>
+
+
+i) Open the file settings.php and give username and password of your mail account for sending the phishing mails. </br>
+   Notice! Use a Vpn when creating and using email </br>
+   Notice! The programm using gmail smpt account for sending email </br>
+   Notice! If using another mail service account set the parameters for smtp protocol,host and security in dns.php file at mail phishing paragraph </br> </br>
+   
+ii) Go to folder /var/www/proxphish   
+   
+ii) 
