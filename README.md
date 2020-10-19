@@ -1,13 +1,16 @@
+<p align="center">
+
 # proxphish
 proxphish is a advanced phishing tool </br> 
+
+</p>
+
 
 
 <p align="center">
 <img src="logo.png" width="250">  </br></br></br>
 </p>
 
-
-<p align="center">
 
 Details </br>
 
@@ -26,12 +29,10 @@ i) Auto method with smtp local server </br>
    
   <p align="center">
  <font color='black' size='5'> <b> INSTALLATION </b> </font> <br/>
-  </p>
  
  
  
- <p align="center">
- <table align="center">
+  <table align="center">
  
   <tr>
      <td> <img width="100" height="100" src="css/screenshots/system_requirements.png"> </td>
@@ -59,5 +60,3 @@ i) Auto method with smtp local server </br>
 </tr>
 
 </table>
-
-</p>
