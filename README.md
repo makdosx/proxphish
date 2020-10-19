@@ -66,6 +66,9 @@ i) Open the file settings.php and give username and password of your mail accoun
    Notice! The programm using gmail smpt account for sending email </br>
    Notice! If using another mail service account set the parameters for smtp protocol,host and security in dns.php file at mail phishing paragraph </br> </br>
    
-ii) Go to folder /var/www/proxphish   
+ii) Go to folder /var/www/proxphish/ngrok/ open a terminal and setup the ngrok account </br>
+    After using the ngrok for ceate fake dns. e.x ./ngrok http 80 </br>
+    Notice! For as long as the attack lasts do not close the terminal with the warm because the dns will be lost </br>
+    Notice! In every attack close and run again the ngrok for creation new fake dns and for hide your identity </br>
    
 ii) 
