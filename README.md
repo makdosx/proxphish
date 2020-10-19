@@ -7,7 +7,7 @@ proxphish is a advanced phishing tool </br>
 
 
 <p align="center">
-<img src="logo.png" width="250" {:height="240px" width="480px"}>  </br></br></br>
+<img src="logo.png" width="250" style="height:240px; width:280px;">  </br></br></br>
 </p>
 
 
