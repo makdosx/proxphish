@@ -22,16 +22,12 @@ i) Auto method with smtp local server </br>
    a) Ngrok link for fake dns </b>
    b) Any fake dns with other srvice e.x server </br>
    c) Your ip from server. Recommended not try this. If try this method use one vpn and port forward on your router </br></br></br>
+ 
    
-   </p>
    
-   
-  <p align="center">
  <font color='black' size='5'> <b> INSTALLATION </b> </font> <br/>
  
- 
- 
-  <table align="center">
+  <table>
  
   <tr>
      <td> <img width="100" height="100" src="css/screenshots/system_requirements.png"> </td>
