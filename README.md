@@ -79,7 +79,7 @@ iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome t
       For delete cloning e-service and attack from begin with anaother e-service clear the program </br>
       Clear Method: local Ipv4/clear.php e.x 192.168.2.2/clear.php. Wait litle second and will be transfer automate in new clear environment </br>
       Notice! If at some point during the attack you get the message "Phishing attack failed" then it means that you have exceeded the limit of daily emails and                 your smtp server cuts you.
-      In this case, just use a gmail account</br></br></br>
+      In this case, just use a new gmail account</br></br></br>
     
 
 
