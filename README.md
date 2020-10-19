@@ -31,7 +31,7 @@ i) Auto method with smtp local server </br>
  
  
  <p align="center">
- <table>
+ <table align="center">
  
   <tr>
      <td> <img width="100" height="100" src="css/screenshots/system_requirements.png"> </td>
