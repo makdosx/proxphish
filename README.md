@@ -1,9 +1,10 @@
+<p align="center">
+
 # proxphish
 proxphish is a advanced phishing tool </br> 
 
-<p align="center">
-<img src="logo.png" width="250"> 
-</p> </br></br></br>
+
+<img src="logo.png" width="250">  </br></br></br>
 
 
 Details </br>
@@ -51,3 +52,5 @@ i) Auto method with smtp local server </br>
 </tr>
 
 </table>
+
+</p>
