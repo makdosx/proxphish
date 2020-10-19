@@ -2,16 +2,16 @@
 
 
 <h2 align="center">
-proxphish is a advanced phishing tool </br> 
+proxphish is a advanced phishing tool 
 </h2>
 
   
 <p align="center">
-<img src="css/screenshots/wallpaper.png">  </br></br></br>
+<img src="css/screenshots/wallpaper.png">  </br>
 </p>
 
  <p align="center">
-  <img src="css/screenshots/caution.png">
+  <img src="css/screenshots/caution.png"> </br>
  </p>
 
 
