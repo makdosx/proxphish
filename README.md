@@ -77,7 +77,9 @@ ii) Go to folder /var/www/proxphish/ngrok/ open a terminal and setup the ngrok a
    
 iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome to proxphish program. Happy hacking! </br>
       For delete cloning e-service and attack from begin with anaother e-service clear the program </br>
-      Clear Method: local Ipv4/clear.php e.x 192.168.2.2/clear.php. Wait litle second and will be transfer automate in new clear environment </br></br></br>
+      Clear Method: local Ipv4/clear.php e.x 192.168.2.2/clear.php. Wait litle second and will be transfer automate in new clear environment </br>
+      Notice! If at some point during the attack you get the message "Phishing attack failed" then it means that you have exceeded the limit of daily emails and                 your smtp server cuts you.
+      In this case, just use a gmail account</br></br></br>
     
 
 
@@ -87,4 +89,4 @@ i) Open tour bowser ang go to local Ipv4/UI e.x 192.168.2.2/UI </br>
    Login Credentials: username: proxphish@dns password: proxphish@dns </br>
    For this panel see you the hacked account  </br>
    In this panel you view the hacked accounts, and many other operations such as (data storage, deletion, and attack from begin). </br>
- 
+   
