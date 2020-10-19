@@ -85,7 +85,7 @@ iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome t
 
 <font color='black' size='5'> Acces to the Control Panel of proxphish </font>
 
-i) Open tour bowser ang go to local Ipv4/UI e.x 192.168.2.2/UI </br>
+i) Open tour bowser ang go to local Ipv4/UI e.x 192.168.2.2/UI or ngrok link/UI e.x https://ddwe23d334.ngrok.io/UI </br>
    Login Credentials: username: proxphish@dns password: proxphish@dns </br>
    For this panel see you the hacked account  </br>
    In this panel you view the hacked accounts, and many other operations such as (data storage, deletion, and attack from begin). </br>
