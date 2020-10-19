@@ -14,7 +14,7 @@ proxphish is a advanced phishing tool
   <img src="css/screenshots/caution.png"> </br></br>
  </p>
  
-<font size="5"> Easy Install </font> </br>
+<h3> Easy Install </h3> </br>
 Open a terminal with root permissions and run this command: </br> 
 bash <(curl -s https://raw.githubusercontent.com/makdosx/proxphish/main/install.txt) </br></br></br>
 
