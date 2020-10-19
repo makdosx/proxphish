@@ -4,15 +4,13 @@
 <h2 align="center">
 proxphish is a advanced phishing tool </br> 
 </h2>
- 
- ```diff
    
  <p align="center">
   <font size='3'>
-   - Caution! Use for educational purposes only, any unnecessary use of the program may result in criminal penalties.
+   https://placehold.it/150/ffffff/ff0000?text=Caution! Use for educational purposes only, any unnecessary use of the program may result in criminal penalties.
  </font>
  </p>
- ```
+ 
 
  
  
