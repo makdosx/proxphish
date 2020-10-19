@@ -89,4 +89,4 @@ i) Open tour bowser ang go to local Ipv4/UI e.x 192.168.2.2/UI </br>
    Login Credentials: username: proxphish@dns password: proxphish@dns </br>
    For this panel see you the hacked account  </br>
    In this panel you view the hacked accounts, and many other operations such as (data storage, deletion, and attack from begin). </br>
-
+ 
