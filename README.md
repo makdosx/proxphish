@@ -7,13 +7,11 @@ proxphish is a advanced phishing tool </br>
 
    
  <p align="center">
-  <font size='3'>
-   Use for educational purposes only, any unnecessary use of the program may result in criminal penalties.
- </font>
+  <img src="css/screenshots/caution.png">
  </p>
   
 <p align="center">
-<img src="logo.png" style="height:240px; width:280px;">  </br></br></br>
+<img src="css/screenshots/wallpaper.png">  </br></br></br>
 </p>
 
 
