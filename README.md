@@ -93,7 +93,7 @@ iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome t
     
   <img src="css/screenshots/sc1.png"> </br></br></br>  
   <img src="css/screenshots/sc2.png"> </br></br></br>
-  <img src="css/screenshots/sc3.png"> </br></br></br>
+  <img src="css/screenshots/sc3.1.png"> </br></br></br>
   <img src="css/screenshots/sc4.png"> </br></br></br>
   <img src="css/screenshots/sc5.png"> </br></br></br>
   <img src="css/screenshots/sc6.png"> </br></br></br>
