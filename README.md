@@ -3,9 +3,12 @@
 # proxphish
 proxphish is a advanced phishing tool </br> 
 
+</p>
+
+
+<p>
 
 <img src="logo.png" width="250">  </br></br></br>
-
 
 Details </br>
 
@@ -19,7 +22,10 @@ i) Auto method with smtp local server </br>
    b) Any fake dns with other srvice e.x server </br>
    c) Your ip from server. Recommended not try this. If try this method use one vpn and port forward on your router </br></br></br>
 
+</p>
 
+
+<p>
 
  <font color='black' size='5'> <b> INSTALLATION </b> </font> <br/>
  
