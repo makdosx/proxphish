@@ -1,4 +1,4 @@
-# proxphish
+<h1 align="center"> # proxphish </>
 
 
 <h2 align="center">
