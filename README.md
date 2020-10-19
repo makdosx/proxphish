@@ -71,8 +71,16 @@ ii) Go to folder /var/www/proxphish/ngrok/ open a terminal and setup the ngrok a
     Notice! For as long as the attack lasts do not close the terminal with the warm because the dns will be lost </br>
     Notice! In every attack close and run again the ngrok for creation new fake dns and for hide your identity </br>
    
-iii)  After open the browser and give your local Ipv4. Welcome to proxphish program. Happy hacking! </br></br></br>
+iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome to proxphish program. Happy hacking! </br>
+      For delete cloning e-service and attack from begin with anaother e-service clear the program </br>
+      Clear Method: local Ipv4/clear.php e.x 192.168.2.2/clear.php. Wait litle second and will be transfer automate in new clear environment </br></br></br>
+    
 
 
+<font color='black' size='5'> Acces to the Control Panel of proxphish </font>
 
+i) Open tour bowser ang go to local Ipv4/UI e.x 192.168.2.2/UI </br>
+   Login Credentials: username: proxphish@dns password: proxphish@dns </br>
+   For this panel see you the hacked account  </br>
+   In this panel you view the hacked accounts, and many other operations such as (data storage, deletion, and attack from begin). </br>
 
