@@ -8,7 +8,10 @@ proxphish is a advanced phishing tool </br>
  <p align="center">
   <font size='3'>
    https://placehold.it/150/ffffff/ff0000?text=Caution! Use for educational purposes only, any unnecessary use of the program may result in criminal penalties.
-     - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+     ```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
  </font>
  </p>
  
