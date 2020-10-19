@@ -6,12 +6,10 @@ proxphish is a advanced phishing tool </br>
 </h2>
  
  
- <p align="center">
+ <p align="center" style="color:#ff0000">
   <font size='3'>
-   <span style="color:orange;">
     Caution! Use for educational purposes only, any unnecessary use of the program may result in criminal penalties.
-   </span>
-  </font>
+ </font>
  </p>
  
  
