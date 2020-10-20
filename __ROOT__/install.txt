@@ -16,7 +16,9 @@ mv /var/www/proxphish/apache2/000-default.conf /etc/apache2/sites-available/
 rm -r /var/www/proxphish/apache2
 chmod -R 777 /etc/apache2/sites-available
 chmod -R 777 /etc/apache2/sites-available/000-default.conf
-unzip /var/www/proxphish/ngrok/ngrok.zip
+cd /var/www/proxphish/__ROOT__
+mv proxphish.desktop ~/.local/share/applications
 a2ensite 000-default.conf
 /etc/init.d/apache2 restart
-tput setaf 2; echo "ProxPhish successfully installed"
+tput setaf 2; echo "ProxPhish successfully installed \n"
+echo "Find it in Kali Menu -> Explotation Tools"

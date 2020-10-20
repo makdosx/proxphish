@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=proxphish
+Exec=sh /var/www/proxphish/__ROOT__/start.sh
+Terminal=false
+Icon=/var/www/proxphish/logo.png
+Type=Application
+Encoding=UTF-8
+Comment=Advanced Phishing Tool
+Categories=08-exploitation-tools
