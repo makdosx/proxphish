@@ -19,7 +19,14 @@ Open a terminal with root permissions and run this command: </br>
 bash <(curl -s https://raw.githubusercontent.com/makdosx/proxphish/main/__ROOT__/install.txt) </br></br></br>
 
 
-Details </br>
+After install find proxphish in applications menu </br>
+For Kali Linux find it in Kali Menu -> Explotation Tools </br>
+
+ <img src="css/screenshots/sc11.png"> </br></br></br>
+
+
+
+ </brDetails </br>
 
 For cloning the e-services </br>
 i) Custom default templates for social media, emails, clouds, computer companies and other e-services </br>
