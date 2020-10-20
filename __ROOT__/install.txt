@@ -22,4 +22,4 @@ mv proxphish.desktop /usr/share/applications
 a2ensite 000-default.conf
 /etc/init.d/apache2 restart
 tput setaf 2; echo "ProxPhish successfully installed"
-echo "Find it in Kali Menu -> Explotation Tools"
+echo "Find it in Kali Menu -> Exploitation Tools"
