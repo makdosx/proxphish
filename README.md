@@ -20,7 +20,7 @@ bash <(curl -s https://raw.githubusercontent.com/makdosx/proxphish/main/__ROOT__
 
 
 After install find proxphish in applications menu </br>
-For Kali Linux find it in Kali Menu -> Explotation Tools </br>
+For Kali Linux find it in Kali Menu -> Exploitation Tools </br>
 
  <img src="css/screenshots/sc11.png"> </br></br></br>
 
