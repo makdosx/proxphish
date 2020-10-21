@@ -4,4 +4,4 @@
 
 IPV4=$(hostname -I|cut -f1 -d ' ')
 
-firefox "http://"$IPV4 "/UI" &
+firefox "http://"$IPV4"/UI"
