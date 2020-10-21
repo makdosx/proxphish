@@ -99,7 +99,7 @@ ii) Go to folder /var/www/proxphish/ngrok/ open a terminal and setup the ngrok a
    
 iii)  Open application proxiphishWEB. Welcome to proxphish program. Happy hacking! </br>
       For delete cloning e-service and attack from begin with anaother e-service clear the program </br>
-      Manual Clear Method (not recommended) </br>
+      Manual Clear Method </br>
       local Ipv4/clear.php e.x 192.168.2.2/clear.php. Wait litle second and will be transfer automate in new clear environment. </br>
        </br>
       Notice! If at some point during the attack you get the message "Phishing attack failed" then it means that you have exceeded the limit of daily emails and                 your smtp server cuts you.
