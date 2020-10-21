@@ -24,6 +24,9 @@ mv proxphishWEB.desktop /usr/share/applications
 chmod -R 777 /var/www/proxphish/__ROOT__/proxphishPANEL.desktop
 mv proxphishPANEL.desktop /usr/share/applications
 
+a2ensite 000-default.conf
+/etc/init.d/apache2 restart
+
 unset your_mail
 unset your_pass
 
@@ -76,14 +79,13 @@ $pass
 EOF
 
 
+tput setaf 2; echo "ProxPhish successfully installed"
+echo "Find it in Kali Menu -> Exploitation Tools"
+
+echo ""
+echo "Last step. Set your ngrok for fake dns"
+
 echo "Give your ngrok authtoken" 
 read ngrok_token
 cd /var/www/proxphish/ngrok/
 exec ./ngrok authtoken $ngrok_token
-
-
-a2ensite 000-default.conf
-/etc/init.d/apache2 restart
-
-tput setaf 2; echo "ProxPhish successfully installed"
-echo "Find it in Kali Menu -> Exploitation Tools"
