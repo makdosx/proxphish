@@ -17,12 +17,12 @@ rm -r /var/www/proxphish/apache2
 chmod -R 777 /etc/apache2/sites-available
 chmod -R 777 /etc/apache2/sites-available/000-default.conf
 cd /var/www/proxphish/__ROOT__
-chmod -R 777 /var/www/proxphish/__ROOT__/proxphish{web}.desktop
-mv proxphish-web.desktop /usr/share/applications
-chmod -R 777 /var/www/proxphish/__ROOT__/proxphish{dns}.desktop
-mv proxphish-dns.desktop /usr/share/applications
-chmod -R 777 /var/www/proxphish/__ROOT__/proxphish{panel}.desktop
-mv proxphis-panel.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphishDNS.desktop
+mv proxphishDNS.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphishWEB.desktop
+mv proxphishWEB.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphishPANEL.desktop
+mv proxphisPANEL.desktop /usr/share/applications
 
 unset your_mail
 unset your_pass
