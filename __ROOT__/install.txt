@@ -7,7 +7,7 @@ cd /var/www/proxphish/proxphish
 cd /var/www/proxphish/proxphish/ngrok/
 unzip ngrok.zip 
 rm -f ngrok.zip 
-cd /var/www/proxphish/proxphis
+cd /var/www/proxphish/proxphish
 mv  /var/www/proxphish/proxphish/* /var/www/proxphish/
 rm -r /var/www/proxphish/proxphish
 chmod -R 777 /var/www/proxphish
