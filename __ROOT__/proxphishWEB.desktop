@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=proxphishWEB
+Exec=sh /var/www/proxphish/__ROOT__/start-web.sh
+Terminal=false
+Icon=/var/www/proxphish/logo.png
+Type=Application
+Encoding=UTF-8
+Categories=08-exploitation-tools
+Name[en_US.UTF-8]=proxphishWEB
