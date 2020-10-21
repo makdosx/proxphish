@@ -19,14 +19,20 @@ Open a terminal with root permissions and run this command: </br>
 bash <(curl -s https://raw.githubusercontent.com/makdosx/proxphish/main/__ROOT__/install.txt) </br></br></br>
 
 
-After install find proxphish in applications menu </br>
+<h5> Make the necessary settings that you will see during the installation, so that everything is automatic and no later settings are needed manually</h5>
+
+After install find proxphish DNS, PANEL and WEB in applications menu </br>
 For Kali Linux find it in Kali Menu -> Exploitation Tools </br>
 
- <img src="css/screenshots/sc11.png"> </br></br></br>
+ <img src="css/screenshots/sc12.png"> </br></br></br>
 
 
+  <!-- <h2> Example attack (kali os) </h2> -->
+  
+ 
 
- </brDetails </br>
+
+ </br> Details </br>
 
 For cloning the e-services </br>
 i) Custom default templates for social media, emails, clouds, computer companies and other e-services </br>
@@ -73,7 +79,7 @@ i) Auto method with smtp local server </br>
 
 
 
-<font color='black' size='5'> Instructions of use </font>
+<font color='black' size='5'> Manual install and use </font>
 
 
 i) Open the file settings.php and give username and password of your mail account for sending the phishing mails. </br>
@@ -83,7 +89,7 @@ i) Open the file settings.php and give username and password of your mail accoun
    
   
 ii) Go to folder /var/www/proxphish/ngrok/ open a terminal and setup the ngrok account </br>
-    After using the ngrok for ceate fake dns. e.x ./ngrok http 80 </br>
+    After using the ngrok for ceate fake dns. open application proxphishDNS </br>
     Notice! For as long as the attack lasts do not close the terminal with the warm because the dns will be lost </br>
     Notice! In every attack close and run again the ngrok for creation new fake dns and for hide your identity </br>
     
@@ -91,9 +97,11 @@ ii) Go to folder /var/www/proxphish/ngrok/ open a terminal and setup the ngrok a
   <img src="css/screenshots/sc0.png"> </br></br></br>
     
    
-iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome to proxphish program. Happy hacking! </br>
+iii)  Open application proxiphishWEB. Welcome to proxphish program. Happy hacking! </br>
       For delete cloning e-service and attack from begin with anaother e-service clear the program </br>
-      Clear Method: local Ipv4/clear.php e.x 192.168.2.2/clear.php. Wait litle second and will be transfer automate in new clear environment </br>
+      Manual Clear Method (not recommended) </br>
+      local Ipv4/clear.php e.x 192.168.2.2/clear.php. Wait litle second and will be transfer automate in new clear environment. </br>
+       </br>
       Notice! If at some point during the attack you get the message "Phishing attack failed" then it means that you have exceeded the limit of daily emails and                 your smtp server cuts you.
       In this case, just use a new gmail account</br></br></br>
     
@@ -109,7 +117,7 @@ iii)  After open the browser and give your local Ipv4. e.x 192.168.2.2 Welcome t
 
 <font color='black' size='5'> Acces to the Control Panel of proxphish </font>
 
-i) Open tour bowser ang go to local Ipv4/UI e.x 192.168.2.2/UI or ngrok link/UI e.x https://ddwe23d334.ngrok.io/UI </br>
+i) Open the application proxiphishPANEL </br>
    Login Credentials: username: proxphish@dns password: proxphish@dns </br>
    For this panel see you the hacked account  </br>
    In this panel you view the hacked accounts, and many other operations such as (data storage, deletion, and attack from begin). </br></br>
@@ -118,5 +126,3 @@ i) Open tour bowser ang go to local Ipv4/UI e.x 192.168.2.2/UI or ngrok link/UI 
  <img src="css/screenshots/sc9.png"> </br></br></br>
  <img src="css/screenshots/sc10.png"> </br></br>
 
-
-   
