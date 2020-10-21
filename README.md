@@ -24,12 +24,9 @@ bash <(curl -s https://raw.githubusercontent.com/makdosx/proxphish/main/__ROOT__
 After install find proxphish DNS, PANEL and WEB in applications menu </br>
 For Kali Linux find it in Kali Menu -> Exploitation Tools </br>
 
- <img src="css/screenshots/sc12.png"> </br></br></br>
+ <h2> Example attack (kali os) video </h2> 
 
-
- <h2> Example attack (kali os) </h2> 
-
-[![sch12](css/screenshots/sc12.png)](https://www.youtube.com/watch?v=Ev498REzUWo "proxphish example")
+[![sch12](css/screenshots/sc12.png)](https://www.youtube.com/watch?v=Ev498REzUWo "proxphish example") </br></br></br>
  
 
 
