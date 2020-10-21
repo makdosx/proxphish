@@ -22,7 +22,7 @@ mv proxphishDNS.desktop /usr/share/applications
 chmod -R 777 /var/www/proxphish/__ROOT__/proxphishWEB.desktop
 mv proxphishWEB.desktop /usr/share/applications
 chmod -R 777 /var/www/proxphish/__ROOT__/proxphishPANEL.desktop
-mv proxphisPANEL.desktop /usr/share/applications
+mv proxphishPANEL.desktop /usr/share/applications
 
 unset your_mail
 unset your_pass
