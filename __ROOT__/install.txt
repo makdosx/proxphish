@@ -7,7 +7,7 @@ cd /var/www/proxphish/proxphish
 cd /var/www/proxphish/proxphish/ngrok/
 unzip ngrok.zip 
 rm -f ngrok.zip 
-cd /var/www/proxphish/proxphish
+cd /var/www/proxphish/proxphis
 mv  /var/www/proxphish/proxphish/* /var/www/proxphish/
 rm -r /var/www/proxphish/proxphish
 chmod -R 777 /var/www/proxphish
@@ -17,12 +17,12 @@ rm -r /var/www/proxphish/apache2
 chmod -R 777 /etc/apache2/sites-available
 chmod -R 777 /etc/apache2/sites-available/000-default.conf
 cd /var/www/proxphish/__ROOT__
-chmod -R 777 /var/www/proxphish/__ROOT__/proxphish web.desktop
-mv proxphish web.desktop /usr/share/applications
-chmod -R 777 /var/www/proxphish/__ROOT__/proxphish dns.desktop
-mv proxphish dns.desktop /usr/share/applications
-chmod -R 777 /var/www/proxphish/__ROOT__/proxphish panel.desktop
-mv proxphish panel.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphish-web.desktop
+mv proxphish-web.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphish-dns.desktop
+mv proxphish-dns.desktop /usr/share/applications
+chmod -R 777 /var/www/proxphish/__ROOT__/proxphish-panel.desktop
+mv proxphis-panel.desktop /usr/share/applications
 
 unset your_mail
 unset your_pass

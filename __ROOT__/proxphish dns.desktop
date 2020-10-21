@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=proxphish dns
+Name=proxphish-dns
 Exec=sh /var/www/proxphish/__ROOT__/start-dns.sh
 Terminal=false
 Icon=/var/www/proxphish/logo.png
