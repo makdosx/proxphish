@@ -29,6 +29,10 @@ For Kali Linux find it in Kali Menu -> Exploitation Tools </br>
 [![sch12](css/screenshots/sc12.png)](https://www.youtube.com/watch?v=Ev498REzUWo "proxphish example") </br></br></br>
  
 
+Pre-installed Cloned Services <br><br>
+
+<img src="css/screenshots/sc13.png"> </br></br></br>
+
 
  </br> Details </br>
 
