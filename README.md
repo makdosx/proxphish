@@ -31,7 +31,7 @@ For Kali Linux find it in Kali Menu -> Exploitation Tools </br>
 
 Pre-installed Cloned Services <br><br>
 
-<img src="css/screenshots/sc13.png"> </br></br></br>
+<img src="css/screenshots/sc13.png" width="100%"> </br></br>
 
 
  </br> Details </br>
