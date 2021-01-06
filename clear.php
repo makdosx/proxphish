@@ -20,6 +20,9 @@
 */
 
 
+shell_exec('shell/./apache_restart.sh');
+
+
  session_start();
  session_unset();
  session_destroy();

